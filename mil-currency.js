@@ -4,7 +4,7 @@
  * @description Angular Directive for a localized currency input field
  * @return {Boolean} True if the input is allowed, False otherwise
  */
-angular.module('mil')
+angular.module('mil', [])
   .directive('milCurrency', ['$filter', '$document', '$locale', function($filter, $document, $locale) {
     return {
       restrict: 'A',
