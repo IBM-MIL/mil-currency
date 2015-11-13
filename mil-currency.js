@@ -118,7 +118,7 @@ angular.module('mil', [])
         });
 
         element.bind('blur', function() {
-          ngModel.$setViewValue($filter('currency')(ngModel.$modelValue, curSymbol, 0));
+          ngModel.$setViewValue($filter('currency')(ngModel.$modelValue, curSymbol));
           ngModel.$render();
         });
       }
