@@ -1,0 +1,28 @@
+{
+  "name": "mil-currency",
+  "main": "mil-currency.js",
+  "version": "1.0.0",
+  "description": "An AngularJS directive for a custom localized currency input field.",
+  "keywords": [
+    "angular",
+    "localized",
+    "currency",
+    "directive",
+    "input"
+  ],
+  "authors": [
+    "Harrison Saylor",
+    "Stephanie Cheng"
+  ],
+  "license": "apache v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
