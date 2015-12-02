@@ -28,7 +28,7 @@ angular.module('mil', [])
         // only needed on load
         ngModel.$formatters.push(function(value) {
           if(!isNaN(parseFloat(value)) && parseFloat(value) !== 0){
-            return $filter('currency')(value, curSymbol, 0);
+            return $filter('currency')(value, curSymbol);
           }
         });
 
