@@ -11,7 +11,7 @@ It has the following features:
 - On blur, the viewValue will be filtered with the AngularJS currency filter. The modelValue will be equal to the viewValue, but will not include the currency symbol. For example, the number 42.1 would be formatted as $42.10 (viewValue) and 42.10 (modelValue).
 
 ## Demo
-See a demo of our directive [here](http://plnkr.co/edit/02eQG9aXahn0ntJP8fBu?p=preview).
+See a demo of our directive [here](http://plnkr.co/edit/7BW0pnBt5pA1QiIe8qZ3?p=preview).
 
 ## Download
 Get our directive via npm with the following command
